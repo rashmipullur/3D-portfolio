@@ -1,4 +1,4 @@
-three.js
-react three fiber 
-tailwindcss
-framer motion
+three.js <br />
+react three fiber <br />
+tailwindcss <br />
+framer motion <br />
