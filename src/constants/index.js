@@ -45,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Gamer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "F1 fan",
     icon: creator,
   },
 ];
@@ -119,57 +119,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Node.js Developer",
+    company_name: "Technomads",
+    icon: backend,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Worked on backend development under a senior developer, focusing on RESTful API design and implementation.",
+      "Gained experience with MongoDB and Mongoose for database operations.",
+      "Collaborated with backend and Blockchain developers to create an efficient NFT management system.",
+      "Developed a feature to generate an Excel sheet for game rounds containing essential NFT data.",
+    ],
+  },
+  {
+    title: "Backend Developer & Project Lead",
+    company_name: "Tanthetaa",
+    icon: creator,
+    iconBg: "#383E53",
+    date: "Dec 2022 - April 2023",
+    points: [
+      "Led backend development for both user-side and admin-side in collaboration with React.js developers.",
+      "Implemented a comprehensive CRUD pattern in REST API, incorporating JWT authentication and MongoDB.",
+      "Managed a two-level chain system for user referral codes and handled various aspects of email communication and transaction storage.",
+      "Managed and led backend development, collaborating with a Flutter developer.",
+      "Utilized Twilio for SMS functionality, solved request limit issues using body-parser, and incorporated socket.io for building a chat room.",
+      "Developed a robust Restful API for the company's website using Express.js, MongoDB, and Multer.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "MERN Developer",
+    company_name: "ExternalShield",
+    icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of an NFT marketplace platform using Node.js, Express.js, and MongoDB.",
+      "Designed a user-friendly interface for buying, selling, and trading non-fungible tokens (NFTs).",
+      "Integrated IPFS for decentralized storage of NFT metadata and assets.",
+      "Led the development of a dynamic e-learning platform using Node.js, Express.js, and React.js.",
+      "Integrated real-time chat functionality and video conferencing for seamless collaboration between students and instructors.",
+      "Implemented user authentication and role-based access control for enhanced security.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#383E53",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
