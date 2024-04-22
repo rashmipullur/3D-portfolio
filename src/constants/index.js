@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  nike,
+  sushi,
+  natours,
 } from "../assets";
 
 export const navLinks = [
@@ -172,15 +175,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rashmi proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Rashmi does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,77 +191,80 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Rashmi optimized our website, our traffic increased by 50%. We can't thank her enough!",
+    name: "Lando Norris",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nike Tailwind",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project offers an immersive journey into Tailwind CSS while building a captivating Nike website. Whether you're a newbie or a seasoned developer, Nike App equips you with the tools to delve deep into Tailwind CSS and its seamless integration with React.js",
     tags: [
       {
-        name: "react",
+        name: "tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nike,
+    source_code_link: "https://github.com/rashmipullur/nike",
+    web_link: "https://nike--tailwind.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Natours",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Discover Natours, an innovative tour booking app built with Node.js, Express, and MongoDB. Seamlessly manage bookings, explore interactive maps, and read user reviews. With secure authentication and Stripe integration, Natours offers a safe and convenient platform for booking your next adventure.",
     tags: [
       {
-        name: "react",
+        name: "pug",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: natours,
+    source_code_link: "https://github.com/rashmipullur/natours",
+    web_link: "https://natours-uytu.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Sushi Store",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "🍣 Explore a dynamic sushi website featuring a delectable array of popular dishes, trendy sushi creations, and refreshing drinks. Crafted with HTML and CSS, this site boasts smooth animations that enhance the user experience, inviting visitors to savor the culinary delights in style. 🍥",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sushi,
+    source_code_link: "https://github.com/rashmipullur/sushi",
+    web_link: "https://sushii-store.vercel.app/",
   },
 ];
 

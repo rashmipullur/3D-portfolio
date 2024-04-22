@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import nike from "./nike.png";
+import sushi from "./sushi.png";
+import natours from "./natours.png";
+import favicon from "./favicon.ico";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  nike,
+  sushi,
+  natours,
+  favicon,
 };
