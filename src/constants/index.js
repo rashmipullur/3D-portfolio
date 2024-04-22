@@ -138,13 +138,10 @@ const experiences = [
     iconBg: "#383E53",
     date: "Dec 2022 - April 2023",
     points: [
-      "Led backend development for both user-side and admin-side in collaboration with React.js developers.",
       "Implemented a comprehensive CRUD pattern in REST API, incorporating JWT authentication and MongoDB.",
-      "Managed a two-level chain system for user referral codes and handled various aspects of email communication and transaction storage.",
       "Managed and led backend development, collaborating with a Flutter developer.",
       "Utilized Twilio for SMS functionality, solved request limit issues using body-parser, and incorporated socket.io for building a chat room.",
-      "Developed a robust Restful API for the company's website using Express.js, MongoDB, and Multer.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -160,7 +157,6 @@ const experiences = [
       "Integrated IPFS for decentralized storage of NFT metadata and assets.",
       "Led the development of a dynamic e-learning platform using Node.js, Express.js, and React.js.",
       "Integrated real-time chat functionality and video conferencing for seamless collaboration between students and instructors.",
-      "Implemented user authentication and role-based access control for enhanced security.",
     ],
   },
   // {
